@@ -26,7 +26,7 @@ const logIn = async () => {
       alert(err.response.data.message)
       LogInData.value.email = ''
       LogInData.value.password = ''
-      console.log(err)
+      //   console.log(err)
     }
   }
 }
